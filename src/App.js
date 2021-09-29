@@ -1,14 +1,14 @@
 import './App.css';
+import { ToDoItem } from './components/ToDoItem';
 
 function App() {
   return (
     <div className="App">
-      <ul>
-        <li className="to-do"><input type="checkbox"></input><p>Todo - 1</p></li>
-        <li className="to-do"><input type="checkbox"></input><p>Todo - 2</p></li>
-        <li className="to-do"><input type="checkbox"></input><p>Todo - 3</p></li>
-        <li className="to-do"><input type="checkbox"></input><p>Todo - 4</p></li>
-      </ul>
+      <h1>To Do</h1>
+      <ToDoItem />
+      <ToDoItem />
+      <ToDoItem />
+      <ToDoItem />
     </div>
   );
 }
